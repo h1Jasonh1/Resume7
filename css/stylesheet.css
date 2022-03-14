@@ -1,0 +1,124 @@
+.body {
+  display: flex;
+  flex-direction: column;
+}
+
+.background-image {
+  background-image: url("../Images/Original.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color:black 
+}
+
+#parent-box {
+  display: flex;
+  flex-direction: row;
+  overflow: unset;
+}
+
+#image{
+  background-color:rgb(0, 0, 0)
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 130px;
+  width: 150px;
+  border-style: solid;
+  border-width: 3px;
+  border-left-width: 3px;
+  border-right-width: 3px;
+  border-top-width: 3px;
+  border-bottom-width: 3px;
+  border-color: #009b93;
+  border-radius: 50%;
+} 
+      
+header{
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-family: sans-serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}      
+
+.main-menu{
+  background-color:#009991;
+  color: rgb(255, 255, 255);
+  font-size: 110%;
+  font-family: sans-serif;
+
+  padding-right: 190px;
+}
+
+#main-content {
+padding-left: 10px;
+}
+
+.main-menu-points {
+  list-style-type: none;
+}
+
+.menu-title {
+  padding-left: 40px;
+  color: #ffffff;
+}
+
+.education-main{
+  font-family: sans-serif;
+  font-size:110%;
+  color: #ffffff;
+}
+
+.experience-main{
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  font-size:110%;
+
+}
+
+.skills-main{
+  font-family: sans-serif;
+  font-size:110%;
+  color: #ffffff;
+}
+
+footer{
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  padding-top: 5px;
+}
+
+.social-media{
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.linkedin-icon{
+  width: 50px;
+  border-radius: 50%;
+}
+      
+.facebook-icon{
+  width: 50px;
+  border-radius: 50%;
+} 
+      
+.gmail-icon{
+  border-radius: 50%;
+  width: 4em;
+  height: 3.8em;
+}
+      
+
+
+
+
+  
